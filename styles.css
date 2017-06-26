@@ -89,7 +89,7 @@ table {
   background: #f38f8f; /* Gecko Browsers */
 }
 body::-webkit-scrollbar {
-    width: 1em;
+    width: 0.5em;
 }
  
 body::-webkit-scrollbar-track {
