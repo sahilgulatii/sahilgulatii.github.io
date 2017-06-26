@@ -82,6 +82,12 @@ table {
 
 
 /************************* End Reset ************************/
+::selection {
+  background: #f38f8f; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #f38f8f; /* Gecko Browsers */
+}
 body {
   font-family: 'Muli', sans-serif;
   font-weight: lighter;
