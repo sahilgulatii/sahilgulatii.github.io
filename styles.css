@@ -143,7 +143,7 @@ body h2 {
   text-align: center;
   font-size: 35px;
   font-weight: bold;
-  margin: 140px 30px 90px 20px;
+  margin: 120px 30px 90px 20px;
   letter-spacing: 0.1px;
 }
 
@@ -158,21 +158,23 @@ body h2 {
 
 #up {
   position: absolute;
-  margin: 250px -120px;
+  margin: -160px -120px;
   width: 200px;
   left: 50%;
+  top: 50%;
 }
 
 #mid {
   position: absolute;
-  margin: 385px -235px;
+  margin: -20px -235px;
   width: 500px;
   left: 50%;
+  top: 50%;
 }
 
 #down {
   position: absolute;
-  margin: 530px -70px;
+  margin: 180px -70px;
   width: 115px;
   text-align: center;
   height: 29px;
@@ -183,6 +185,7 @@ body h2 {
   font-weight: bolder;
   padding: 3px;
   left: 50%;
+  top: 50%;
   text-shadow: none;
 }
 
@@ -204,14 +207,14 @@ header p {
 
 header h1 {
   font-size: 50px;
-  margin: 190px -170px;
+  margin: -120px -170px;
   position: absolute;
   /*Positioning needed or the h1 will add to the height of
 the header, messing up the proportions and then cropping
 the header image. */
-  top: 100px;
-  left: 50%;
   font-weight: bold;
+  left: 50%;
+  top: 50%;
 }
 
 footer {
