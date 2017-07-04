@@ -91,6 +91,11 @@ table {
 img {
   max-width: 100%;
 }
+@media(max-width:900px) {
+  #bottom {
+    width: 900px;
+  }
+}
 
 ::selection {
   background: #f38f8f;
