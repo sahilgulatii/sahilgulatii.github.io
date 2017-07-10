@@ -100,11 +100,13 @@ img {
 
 ::selection {
   background: #f38f8f;
+  color:#fdfdfd;
   /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
   background: #f38f8f;
+   color:#fdfdfd;
   /* Gecko Browsers */
 }
 
