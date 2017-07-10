@@ -94,19 +94,22 @@ img {
 
 @media(max-width:900px) {
   #bottom {
-    width: 900px;
+    width: 70%;
+  }
+  #top {
+    width: 70%;
   }
 }
 
 ::selection {
   background: #f38f8f;
-  color:#fdfdfd;
+  color: #fdfdfd;
   /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
   background: #f38f8f;
-   color:#fdfdfd;
+  color: #fdfdfd;
   /* Gecko Browsers */
 }
 
