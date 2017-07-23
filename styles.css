@@ -331,19 +331,21 @@ img.displayed {
 }
 
 .social a {
-  -webkit-transition: all 500ms cubic-bezier(0.550, -0.055, 0.675, 0.190);
-  -moz-transition: all 500ms cubic-bezier(0.550, -0.055, 0.675, 0.190);
-  -o-transition: all 500ms cubic-bezier(0.550, -0.055, 0.675, 0.190);
-  transition: all 500ms cubic-bezier(0.550, -0.055, 0.675, 0.190);
+  transition: all 0.4s cubic-bezier(0.42, -0.76, 0.48, 1.64);
+      -webkit-transition: all 0.4s cubic-bezier(0.42, -0.76, 0.48, 1.64);
+      -moz-transition: all 0.4s cubic-bezier(0.42, -0.76, 0.48, 1.64);
+      -ms-transition: all 0.4s cubic-bezier(0.42, -0.76, 0.48, 1.64);
+      -o-transition: all 0.4s cubic-bezier(0.42, -0.76, 0.48, 1.64);
   /* easeInCubic */
+  padding: 1px 1px 1px 1px;
 }
 
 .social a:hover {
   font-size: 40px;
-  -webkit-transition: all 500ms cubic-bezier(-0.550, 0.055, 0.675, 0.190);
-  -moz-transition: all 500ms cubic-bezier(0.550, -0.055, 0.675, 0.190);
-  -o-transition: all 500ms cubic-bezier(0.550, -0.055, 0.675, 0.190);
-  transition: all 500ms cubic-bezier(0.550, -0.055, 0.675, 0.190);
+  transition: all 0.4s cubic-bezier(0.42, -0.76, 0.48, 1.64);
+      -webkit-transition: all 0.4s cubic-bezier(0.42, -0.76, 0.48, 1.64);
+      -moz-transition: all 0.4s cubic-bezier(0.42, -0.76, 0.48, 1.64);
+      -ms-transition: all 0.4s cubic-bezier(0.42, -0.76, 0.48, 1.64);
+      -o-transition: all 0.4s cubic-bezier(0.42, -0.76, 0.48, 1.64);
   /* easeInCubic */
 }
-
