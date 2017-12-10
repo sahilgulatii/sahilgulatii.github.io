@@ -141,7 +141,7 @@ body a {
   color: #f38f8f;
   text-decoration: underline;
 }
-body span {
+body span a {
   color: #f38f8f;
 }
 body a:hover {
