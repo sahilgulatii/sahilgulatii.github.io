@@ -139,9 +139,12 @@ body {
 
 body a {
   color: #f38f8f;
+  text-decoration: underline;
 }
-
-body span:hover {
+body a {
+  color: #f38f8f;
+}
+body a:hover {
   color: #e44e4e;
   transition: 0.5s;
   text-decoration: underline;
