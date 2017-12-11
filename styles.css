@@ -147,7 +147,7 @@ body span a {
 body a:hover {
   color: #e44e4e;
   transition: 0.5s;
-  text-decoration: underline;
+ 
 }
 
 a {
